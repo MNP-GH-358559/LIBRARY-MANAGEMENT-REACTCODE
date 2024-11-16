@@ -1,0 +1,75 @@
+body {
+    height: 100%; /* Ensure full height for centering */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for the body */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #f0f0f0; /* Light background for contrast */
+}
+
+.container {
+    max-width: 600px; /* Limit the width of the container */
+    width: 100%; /* Allow the container to take full width */
+    margin: 0; /* Remove margin in favor of flex alignment */
+    padding: 20px; /* Space around elements */
+    border: 1px solid #ccc; /* Border for visibility */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    background-color: #f9f9f9; /* Background color */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below heading */
+    color: #333; /* Heading color */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+    display: block; /* Labels take full line */
+    margin-bottom: 5px; /* Space below label */
+    font-weight: bold; /* Bold font for labels */
+    color: #555; /* Label color */
+}
+
+.form-input {
+    width: 100%; /* Full width input */
+    padding: 10px; /* Padding for input */
+    border: 1px solid #ccc; /* Input border */
+    border-radius: 4px; /* Rounded corners for input */
+    font-size: 16px; /* Font size for input */
+    transition: border 0.3s; /* Transition for border color change */
+}
+
+.form-input:focus {
+    border-color: #007BFF; /* Change border color on focus */
+    outline: none; /* Remove outline on focus */
+}
+
+.submit-button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside button */
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners for button */
+    font-size: 16px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor for button */
+    transition: background-color 0.3s; /* Transition for background color change */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+.submitted-data {
+    margin-top: 20px; /* Space above submitted data display */
+    padding: 10px; /* Padding for submitted data */
+    border: 1px solid #007BFF; /* Border for visibility */
+    border-radius: 4px; /* Rounded corners for submitted data */
+    background-color: #e7f3ff; /* Background color for submitted data */
+    text-align: left; /* Align text to the left */
+}
